@@ -78,7 +78,7 @@ const createPost = (post) => {
               <div class="post__content">
                 <div class="post__medias">
                   <img
-                    class="post__media"
+                    class="post__media "
                     src="${image}"
                     alt="Post Content"
                   />
@@ -172,3 +172,5 @@ const loadPosts = async () =>{
 
 loadPosts();
 
+
+//total five problem solve
