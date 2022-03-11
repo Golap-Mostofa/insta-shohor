@@ -53,6 +53,8 @@ const switchTab = (id) => {
     }
 };
 
+//total five problem solve
+
 const createPost = (post) => {
     const image = post.image;
     const div = document.createElement( "article" );
@@ -173,4 +175,4 @@ const loadPosts = async () =>{
 loadPosts();
 
 
-//total five problem solve
+
